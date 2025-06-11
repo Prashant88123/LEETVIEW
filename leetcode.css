@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e4e4e7;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    min-width: fit-content;
+    width: 60rem;
+    background-color: #d1cece;
+    color: rgb(78, 90, 101);
+    background-color: #85FFBD;
+
+
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1{
+    font-size:64px;
+    text-align: center;
+    
+
+
+}
+.usercontainer{
+    font-size: large;
+    font-family: "Roboto Condensed", serif;
+    color: rgb(128, 131, 133);
+}
+#inputusername{
+    width: 80%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    outline: none;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+#searchbutton{
+    padding: 10px 20px;
+    border-radius: 0.4rem;
+    background: rgb(7, 97, 242);
+    color: azure;
+    font-size: larger;
+}
+.circle{
+    border: 5px solid rgb(208, 236, 167);
+    background-color: rgb(212, 246, 162);
+    color: rgb(0, 0, 0);
+    width: 10rem;
+    height: 10rem;
+    padding: 4rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+    background: conic-gradient( rgb(14, 243, 94) var(--progressdegree,0%),rgba(247, 247, 8, 0.571) 0%);
+    transition: background 3s ease-in-out;
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    display: none;
+}
+#easylabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardcontainer{
+    text-align: start;
+    font-size: 21px;
+    font-family: "Roboto Condensed", serif;
+    color: rgb(107, 104, 104);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+input::placeholder{
+    font-size: medium;
+    font-family: "Roboto Condensed", serif;
+}
+
